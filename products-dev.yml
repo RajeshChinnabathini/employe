@@ -12,3 +12,11 @@ spring:
     hibernate.ddl-auto: update
 message: this is dev env
 
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: false
+    service-url:
+      defaultZone: http://localhost:1010/eureka
+    
+
