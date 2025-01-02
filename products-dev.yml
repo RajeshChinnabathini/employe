@@ -6,7 +6,7 @@ management:
         include: "*"
 
 server:
-  port: 5539
+  port: 5555
 
 feign:
   okhttp:
